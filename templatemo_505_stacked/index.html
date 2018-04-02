@@ -18,7 +18,7 @@ http://www.templatemo.com/tm-505-stacked
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/templatemo-style.css">
-
+        <link rel="stylesheet" href="css/auth.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
@@ -41,7 +41,10 @@ http://www.templatemo.com/tm-505-stacked
               <a href="#3" class="nav__link c-red"><img src="img/console1.png" alt=""></a>
             </li>
             <li class="nav__item">
-              <a href="#4" class="nav__link c-green"><img src="img/contact-icon.png" alt=""></a>
+                <a href="#4" class="nav__link c-green"><img src="img/sound.png" style="width:45px;" id="" alt=""></a>
+              </li>
+            <li class="nav__item">
+              <a href="#5" class="nav__link c-green"><img src="img/contact-icon.png" alt=""></a>
             </li>
           </ul>
         </nav>
@@ -86,25 +89,34 @@ http://www.templatemo.com/tm-505-stacked
                 <div class="row">
                   <div class="col-md-8 col-md-offset-2">
                     <div class="about-content">
-                      <div class="heading">
-                        <h4>Inicio de Sesión</h4>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="about-box-content">
-                            <img src="img/login.png" height="600" alt="">
-                          </div>
-                        </div>
-                        <div class="col-md-7 col-md-offset-5">
-                          <div class="about-box-text">
-                            <h4>POR IMPLEMENTAR</h4>
-                            <p>"< IMPLEMENTACIÓN DE LA VISTA DE INICIO DE SESIÓN >"</p>
-                            <div class="primary-button">
-                              <a href="./auth.html">Iniciar Sesión</a>
+
+                        <section class="back-auth">
+                            <div class="back-auth-post">
+                                <div class="heading">
+                                    <h4>Inicia Sesion!</h4>
+                                </div>
+                                <div class="faceAuth">
+                                    <img src="img/faceDect.jpg" alt="" class="imagenFace">
+                                    <p class="textInstructions">Ponte en frente de la camara para que puedas entrar al sistema</p>
+                                </div>
+                
+                                <div class="userAuth">
+                                    <p>Ingresa tu usuario</p>
+                                    <input type="text" placeholder="Usuario">
+                                    <p>Ingresa tu contrasena</p>
+                                    <input type="text" placeholder="Contrasena">
+                                    <div class="primary-button">
+                                        <a href="#"> Enviar</a>
+                                    </div>
+                                </div>
+                                <div class="primary-button">
+                                    <a href="#" id="normalLogin">Usuario/Contrasena</a>
+                                </div>
+                
+                                
                             </div>
-                          </div>
-                        </div>
-                      </div>
+                
+                        </section>
                     </div>
                   </div>
                 </div>
@@ -195,7 +207,93 @@ http://www.templatemo.com/tm-505-stacked
             </div>
           </article>
         </section>
-        <section class="panel b-green" id="4">
+
+        <section class="panel b-red" id="4">
+            <article class="panel__wrapper">
+              <div class="panel__content">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                      <div class="projects-content">
+                        <div class="heading">
+                          <h4>Sensorial</h4>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="owl-carousel owl-theme projects-container">
+                              <div>
+                                <div class="project-item">
+                                  <a href="img/project-item-01.jpg" data-lightbox="image-1"><img src="img/sensorial-1.jpg" alt=""></a>
+                                  <div class="text-content">
+                                    <h4>Dance Dance Revolution</h4>
+                                    <p>¡Baila al ritmo de la música que más te gusta!</p>
+                                    <div class="primary-button">
+                                      <a href="#">¡JUGAR!</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="project-item">
+                                  <a href="img/project-item-02.jpg" data-lightbox="image-1"><img src="img/sensorial-2.jpg" alt=""></a>
+                                  <div class="text-content">
+                                    <h4>Tenis de Mesa Kinect</h4>
+                                    <p>¡Demuestrale tus habilidades a tus amigos en el tenis de mesa!</p>
+                                    <div class="primary-button">
+                                      <a href="#">¡JUGAR!</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="project-item">
+                                  <a href="img/project-item-03.jpg" data-lightbox="image-1"><img src="img/sensorial-3.jpg" alt=""></a>
+                                  <div class="text-content">
+                                    <h4>Nice Capture</h4>
+                                    <p>Lorem ipsum dolor, adipis scing elit etiam ante vehicula, aliquam mauris in, luctus neque.</p>
+                                    <div class="primary-button">
+                                      <a href="#">¡JUGAR!</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="project-item">
+                                  <a href="img/project-item-04.jpg" data-lightbox="image-1"><img src="img/sensorial-4.jpg" height="175" alt=""></a>
+                                  <div class="text-content">
+                                    <h4>Mario Kart Wii</h4>
+                                    <p>¡Compite con tus personajes favoritos y usa lo que tengas a tu disposición para llegar de primero!</p>
+                                    <div class="primary-button">
+                                      <a href="#">¡JUGAR!</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="project-item">
+                                  <a href="img/project-item-05.jpg" data-lightbox="image-1"><img src="img/sensorial-5.jpg" alt=""></a>
+                                  <div class="text-content">
+                                    <h4>Kinectimals</h4>
+                                    <p>¡Comparte con tus pequeños amiguitos salvajes, enséñales trucos y dales todo tu cariño!</p>
+                                    <div class="primary-button">
+                                      <a href="#">¡JUGAR!</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+
+
+        <section class="panel b-green" id="5">
           <article class="panel__wrapper">
             <div class="panel__content">
               <div class="container">
@@ -263,5 +361,6 @@ http://www.templatemo.com/tm-505-stacked
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+        <script src="js/auth.js"></script>
     </body>
 </html>
