@@ -1,0 +1,36 @@
+#mainImg{
+    width: 350px;
+}
+
+.menuSelect{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+}
+
+.selectTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.select{
+    width: 200px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    background: #ddd;
+}
+
+#select1:hover{
+    cursor: pointer;
+}
+
+#select2{
+    background: #444;
+}
+
+#spaceCanvas{
+
+}
