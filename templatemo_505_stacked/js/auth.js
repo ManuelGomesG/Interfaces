@@ -28,4 +28,23 @@ $(document).ready(function(){
             isFaceAuth = true;
         }
     });
+
+    var username = $("#username");
+    var password = $("#password");
+    var submit = $("#submit");
+
+    submit.on("click", e=>{
+        if (username.val() == "" && password.val() == "") {
+            e.preventDefault();
+            userAuth.append("<p>Introduce un usuario y contrasena validos</p>");
+        }
+        else if(username.val() == ""){
+            e.preventDefault();
+            userAuth.append("<p>Introduce un usuario valido</p>");
+        }
+        else if(password.val() == ""){
+            e.preventDefault();
+            userAuth.append("<p>Introduce un contrasena valida</p>")
+        }
+    })
 });

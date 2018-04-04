@@ -23,14 +23,52 @@
     background: #ddd;
 }
 
-#select1:hover{
+#select1:hover, #select3:hover{
     cursor: pointer;
 }
 
-#select2{
+#select2, #select4{
     background: #444;
 }
 
-#spaceCanvas{
+.textNormal{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
+#spaceCanvas2{
+    margin-bottom: 30px;
+}
+
+.tabla{
+    background: #444;
+    color: white;
+}
+
+.tabla th{
+    padding: 10px !important;
+    text-align: center;
+}
+.tabla td{
+    padding: 10px !important;
+    text-align: center;
+}
+
+
+.fieldSpace label{
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldSpace label input{
+    margin: 10px 0;
+    width: 400px;
+    height: 30px;
+}
+
+.fieldSpace label textarea{
+    height: 100px;
+    width: 400px;
 }
