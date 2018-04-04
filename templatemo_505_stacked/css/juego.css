@@ -1,0 +1,30 @@
+body{
+    background: #ccccff;
+}
+
+
+.home-content{
+    min-height: 100vh;
+    height: 100%;
+}
+
+.home-heading{
+    text-align: center;
+}
+.spaceVideo{
+    margin: auto;
+    background: rgba(45, 58, 75, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videoDiv{
+    display: flex;
+    align-items: center;
+}
+.wii{
+    width: 150px;
+    height: 200px;
+
+}
