@@ -72,3 +72,27 @@
     height: 100px;
     width: 400px;
 }
+
+.cerrarSesion{
+    background: #455871;
+    width: 200px;
+    color: white;
+    position: fixed;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Roboto','sans-serif'
+}
+
+.cerrarSesion p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto','sans-serif';
+    font-size: 15px;
+}
+.cerrarSesion a{
+    color: white;
+    padding: 0;
+}

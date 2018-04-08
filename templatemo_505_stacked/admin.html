@@ -51,6 +51,12 @@ http://www.templatemo.com/tm-505-stacked
           </ul>
         </nav>
 
+        <div class="cerrarSesion">
+          <p>Admin</p>
+          <p> |</p>
+          <a href="index.html">Cerrar Sesion</a>
+        </div>
+
         <section class="panel b-blue" id="1">
           <article class="panel__wrapper">
             <div class="panel__content">
@@ -271,7 +277,9 @@ http://www.templatemo.com/tm-505-stacked
                       <div class="heading">
                         <h4>Registrar nuevo usuario</h4>
                       </div>
-
+                      <p class="textNormal">Ingresa los datos del nuevo usuario. Los campos con asterisco (*) son 
+                        obligatorios
+                      </p>
                       <div class="fieldSpace">
                       <label>
                           Primer nombre
@@ -286,26 +294,26 @@ http://www.templatemo.com/tm-505-stacked
                     </div>
                     <div class="fieldSpace">
                       <label>
-                        Nombre de usuario
+                        Nombre de usuario (*)
                       <input type="text" placeholder="Nombre de usuario">
                     </label>
                   </div>
                   <div class="fieldSpace">
                     <label>
-                        Correo electrónico
-                      <input type="email" placeholder="Correo electrónico">
+                        Correo electrónico (*)
+                      <input type="email" placeholder="Correo electrónico" required>
                     </label>
                   </div>
                   <div class="fieldSpace">
                     <label>
                         Vuelve a introducir tu correo electrónico
-                      <input type="email" placeholder="Correo electrónico">
+                      <input type="email" placeholder="Correo electrónico" required>
                     </label>
                   </div>
                   <div class="fieldSpace">
                     <label>
-                        Contraseña
-                      <input type="password" placeholder="Contraseña">
+                        Contraseña (*)
+                      <input type="password" placeholder="Contraseña" required>
                     </label>
                   </div>
                   <div class="fieldSpace">
